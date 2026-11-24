@@ -1,0 +1,1 @@
+sudo dnf install swayidle swaylock brightnessctl gammastep ddcutil power-profiles-daemon upower mako

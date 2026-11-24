@@ -1,0 +1,11 @@
+
+# Personal
+
+alias red-restart="sudo service NetworkManager restart"
+alias red-status="nmcli dev status"
+alias wifi-list="nmcli device wifi list"
+alias wifi-connect="nmcli --ask dev wifi connect"
+alias wifion="nmcli radio wifi on"
+alias wifioff="nmcli radio wifi off"
+alias bluetooth-on="sudo systemctl start bluetooth.service"
+alias suspender="nmcli radio wifi off && systemctl suspend"
